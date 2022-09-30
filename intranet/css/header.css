@@ -1,0 +1,280 @@
+header {
+    width: 100%;
+    height: 150px;
+}
+
+img {
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+header ul {
+    margin-top: 10px;
+}
+
+ul {
+    float: right;
+    margin-right: 50px;
+}
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+a:hover {
+    color: #37bbed !important;
+}
+
+.chat:hover {
+    color: #37bbed !important;
+}
+
+.cerrar:hover {
+    color: red !important;
+}
+
+.perfil:hover {
+    color: #37bbed !important;
+}
+
+.cargas:hover {
+    color: #37bbed !important;
+}
+
+.crearcomu:hover {
+    color: #37bbed!important;
+}
+
+hr {
+    width: calc(100% - 10%); 
+    margin-top: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.botonera {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.btn3 {
+    color: white !important;
+}
+
+.btn3:hover {
+    color: grey !important;
+    background-color: lightblue;
+}
+
+.menu{
+    position: absolute;
+    height: auto;
+    width: auto;
+    display: none;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    background-color: gray;
+    opacity: 70%;
+}
+.botonera3{
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 100%;
+}
+.botonera2 li:hover .menu{
+    display: block;
+}
+.breadcrumb li:hover .menu{
+    display: block;
+}
+
+.botonera2{
+    width: 100%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0 !important;
+
+    display: flex;
+}
+.botonera2 > li > a{
+    display: block;
+}
+
+.botonera3{
+    margin-top: -20px !important;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.list-bot{
+    margin-left: 2px !important;
+}
+.btn5 {
+    margin-left: -15px !important;
+}
+.btn6{
+    margin-top: 10px;
+}
+
+.menu a{
+    margin-top: 0 !important;
+}
+.textofijado{
+    width: 100%;
+    height: calc(100% - 20%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0 !important;
+    text-align: left;
+}
+.fechafijado{
+    width: 100%;
+    text-align: left;
+}
+.titfijado{
+    margin-top: 0px !important;
+    font-size: 20px;
+    width: 100%;
+}
+.cent-nav{
+    width: auto !important;
+}
+@media screen and (max-width: 1680px){
+  .textofijado{
+    font-size: 15px;
+  }
+  .secciones{
+    margin-left: 150px !important;
+  }
+  .fecha-comu{
+    margin-top: 110px !important;
+  }
+  .fecha-comu p{
+    margin-left: 130px !important;
+}
+.imagen-rrhh{
+   height: 90% !important;
+}
+.imagen-gen{
+    height: 90% !important;
+ }
+ .imagen-sgbatos{
+    height: 90% !important;
+ }
+ .imagen-com{
+    height: 90% !important;
+ }
+ .imagen-info{
+    height: 90% !important;
+ }
+ .imagen-segu{
+    height: 90% !important;
+ }
+
+.espacio{
+    height: 0px !important;
+}
+}
+@media screen and (max-width: 1440px){
+    .textofijado{
+        font-size: 13px;
+      }
+    .comu{
+        height: 770px !important;
+
+    }
+    .imagen-rrhh{
+        height: 90% !important;
+     }
+     .imagen-gen{
+        height: 90% !important;
+     }
+     .imagen-sgbatos{
+        height: 90% !important;
+     }
+     .imagen-com{
+        height: 90% !important;
+     }
+     .imagen-info{
+        height: 90% !important;
+     }
+     .imagen-segu{
+        height: 90% !important;
+     }
+     .fecha-comu{
+        margin-top: 95px !important;
+      }
+      .fecha-comu p{
+        margin-left: 110px !important;
+    }
+    .texto-comu{
+        height: 350px !important;
+        width: 800px !important;
+    }
+    .texto-comu p{
+        margin-top: 20px;
+    }
+    .espacio{
+        height: 0px !important;
+    }
+}
+@media screen and (max-width: 1280px){
+    
+    .comu{
+        height: 670px !important;
+
+    }
+    .secciones{
+        margin-left: 110px !important;
+      }
+    .fecha-comu{
+        margin-top: 83px !important;
+      }
+      .fecha-comu p{
+        font-size: 17px !important;
+    }
+    .imagen-rrhh{
+        height: 90% !important;
+     }
+     .imagen-gen{
+        height: 90% !important;
+     }
+     .imagen-sgbatos{
+        height: 90% !important;
+     }
+     .imagen-com{
+        height: 90% !important;
+     }
+     .imagen-info{
+        height: 90% !important;
+     }
+     .imagen-segu{
+        height: 90% !important;
+     }
+     .texto-comu p{
+        font-size: 17px !important;
+    }
+    .texto-comu{
+        height: 250px !important;
+        width: 750px !important;
+    }
+}
+
+
+

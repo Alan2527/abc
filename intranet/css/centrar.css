@@ -1,0 +1,6 @@
+.centrar-form {
+    width: calc(100% - 40%);
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
